@@ -1,24 +1,17 @@
-# Example Home Assistant add-on repository
+# Twingate Connector Add-On for Home Assistant
 
-This repository can be used as a "blueprint" for add-on development to help you get started.
+When deployed on systems with the Home Assistant Supervisor, the Twingate connector causes the supervisor to report unauthorized software running on the OS. This project aims to fix this issue by moving the Docker container to a Home Assistant add-on, allowing the supervisor to recognize the container as a part of Home Assistant.
 
-Add-on documentation: <https://developers.home-assistant.io/docs/add-ons>
+To add this add-on to your Home Assistant server, you'll need to add this repository in your Add-ons Store. The button below will do this automatically for you, or you can do it manually.
 
-[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fhome-assistant%2Faddons-example)
+[![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fturphin%2Ftwingate-hass)
 
 ## Add-ons
 
 This repository contains the following add-ons
 
-### [Example add-on](./example)
+### [Twingate Connector](./twingateconnector)
 
-![Supports aarch64 Architecture][aarch64-shield]
-![Supports amd64 Architecture][amd64-shield]
-![Supports armhf Architecture][armhf-shield]
-![Supports armv7 Architecture][armv7-shield]
-![Supports i386 Architecture][i386-shield]
-
-_Example add-on to use as a blueprint for new add-ons._
 
 <!--
 
