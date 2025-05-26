@@ -2,6 +2,8 @@
 
 When deployed on systems with the Home Assistant Supervisor, the Twingate connector causes the supervisor to report unauthorized software running on the OS. This project aims to fix this issue by moving the Docker container to a Home Assistant add-on, allowing the supervisor to recognize the container as a part of Home Assistant.
 
+This add-on is made independently by a community member. This is not an official project by either Home Assistant or Twingate.
+
 To add this add-on to your Home Assistant server, you'll need to add this repository in your Add-ons Store. The button below will do this automatically for you, or you can do it manually.
 
 [![Open your Home Assistant instance and show the add add-on repository dialog with a specific repository URL pre-filled.](https://my.home-assistant.io/badges/supervisor_add_addon_repository.svg)](https://my.home-assistant.io/redirect/supervisor_add_addon_repository/?repository_url=https%3A%2F%2Fgithub.com%2Fturphin%2Ftwingate-hass)
