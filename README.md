@@ -1,4 +1,4 @@
-# Twingate Connector Add-On for Home Assistant
+# Twingate Connector Add-on for Home Assistant
 
 When deployed on systems with the Home Assistant Supervisor, the Twingate connector causes the supervisor to report unauthorized software running on the OS. This project aims to fix this issue by moving the Docker container to a Home Assistant add-on, allowing the supervisor to recognize the container as a part of Home Assistant.
 
