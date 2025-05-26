@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Twingate Home Assistant integration repository
+name: Twingate Connector integration repository
 url: 'https://github.com/turphin/twingate-hass'
 maintainer: Jayden Chang <turphin@icloud.com>
